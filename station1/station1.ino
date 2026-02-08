@@ -1,9 +1,9 @@
+#include <RF24.h>
 #include <SPI.h>//подключение библиотек
 #include <nRF24L01.h>
-#include <RF24.h>
 
-#define CE 9
 #define CSN 10
+#define CE 9
 
 RF24 rfLink(CE, CSN);//радио
 
