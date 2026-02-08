@@ -1,7 +1,7 @@
-#include <SPI.h>
-#include <nRF24L01.h>
-#include <RF24.h>
 #include <Servo.h>
+#include <SPI.h>
+#include <RF24.h>
+#include <nRF24L01.h>
 
 // Пины
 #define RF_PIN_CE    4
